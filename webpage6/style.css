@@ -1,0 +1,134 @@
+body {
+    background: dimgrey;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+    background-color: lightgreen;
+    font-size: 3em;
+    color: rebeccapurple;
+    text-align: center;
+}
+
+h2 {
+    background-color: lightgreen;
+    font-size: 2em;
+    color: rebeccapurple;
+}
+
+h3 {
+    background-color: #b21cd3;
+    color: skyblue;
+}
+
+p {
+    background-color: lightgray;
+    color: black;
+}
+
+a {
+    background-color: lightgray;
+    color: rebeccapurple;
+}
+
+table {
+    background-color: #b21cd3;
+    color: rebeccapurple;
+    float: inherit;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border: 4px solid rebeccapurple;
+}
+
+ol {
+    list-style-type: upper-roman;
+    background-color: inherit;
+    color: rebeccapurple;
+}
+
+ul {
+    list-style-type: circle;
+    background-color: inherit;
+    color: rebeccapurple;
+}
+
+tr:nth-child(even) {background-color: skyblue; color: rebeccapurple;}
+tr:nth-child(odd) {background-color: lightgreen; color: rebeccapurple;}
+
+td {
+  text-align: center;
+  padding: 1em;
+}
+
+header {
+    color: lightgray;
+    background-color: #b21cd3;
+    margin: auto;
+}
+
+nav {
+    background-color: lightgreen;
+    color: lightgray;
+    text-align: center;
+    font-family: Arial, Impact, sans-serif;
+    font-size: 2em;
+}
+
+section {
+    background-color: darkgray;
+    color: lightgray;
+}
+
+main {
+    display: block;
+    background-color: inherit;
+    color: lightgray;
+    padding: 20px;
+}
+
+footer {
+    background-color: #b21cd3;
+    color: lightgray;
+}
+
+.align_center {
+    text-align: center;
+}
+
+#clear_float {
+    float: none;
+}
+
+#aboutme {
+    background-color: inherit;
+    color: black;
+}
+
+#aboutmylogo {
+    background-color: inherit;
+    color: black;
+}
+
+#onlinefavs {
+    background-color: inherit;
+    color: black;
+}
+
+#container {
+    width: 1000px;
+    padding: 20px;
+    border: 10px solid skyblue;
+    margin: auto;
+}
+
+.align_right {
+    text-align: right;
+}
+
+.float_left {
+    float: left;
+    padding: 5px;
+}
